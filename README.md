@@ -34,7 +34,7 @@ Here are the instructions for runing this script in terminal on worker02:
    - To run the code, type: python network.py data weighted_edgelist.csv
    - To get information about the input arguments, type: python network.py --help 
    - OPTIONAL: there is an optional '--weight argument'.  To include it, add: --weight as the last argument followed by a number of your choice, e.g. --weight 300
-   - It should create 'viz' folder with network visualization in it and 'output' folder with .csv file in it. You should get a message when the script is done running.
+   - You should get a message when the script is done running. As a result, you should find newly created 'viz' folder with network visualization in it and 'output' folder with .csv file in it in networks environment
    - NOTE: unfortunatelly, network visualization looks like a crap ;/
    - To remove the newly created networks environment type: bash kill_networks_venv.sh
 
