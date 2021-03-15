@@ -12,7 +12,7 @@ The purpose of this assignment is to create reusable network analysis pipeline o
 
 # About this repository:
 
-This repository is a subset taken from cds-language environment on worker02. The 'data' folder contains 'weighted_edgelist.csv' file which is to be used as an input for the command-line tool. You can use any other dataset which satisfies the requirements mentioned above. The script is defined in network.py file. Also, there are two bash files: 'create_networks_venv.sh' for creating the environment with its dependencies (requirements.txt ) and 'kill_networks_venv.sh' file for removing the environment. 
+This repository is a subset taken from cds-language environment on worker02. The 'data' folder contains 'weighted_edgelist.csv' file which is to be used as an input for the command-line tool. You can use any other dataset which satisfies the requirements mentioned above. The script is defined in 'network.py' file. Also, there are two bash files: 'create_networks_venv.sh' for creating the environment with its dependencies (requirements.txt ) and 'kill_networks_venv.sh' file for removing the environment. 
 
 
 
@@ -33,10 +33,9 @@ Here are the instructions for runing this script in terminal on worker02:
 
    - To run the code, type: python network.py data weighted_edgelist.csv
    - To get information about the input arguments, type: python network.py --help 
-   - OPTIONAL: there is an otional --weight argument.  To include it, add: --weight as the last argument followed by a number of your choice, e.g. --weight 300
-   - Script will take a while to run (faster with --weight argument), so have a short break.
+   - OPTIONAL: there is an optional '--weight argument'.  To include it, add: --weight as the last argument followed by a number of your choice, e.g. --weight 300
    - It should create 'viz' folder with network visualization in it and 'output' folder with .csv file in it. You should get a message when the script is done running.
-   - NOTE: unfortunatelly, network visualization looks like crap ;/
+   - NOTE: unfortunatelly, network visualization looks like a crap ;/
    - To remove the newly created networks environment type: bash kill_networks_venv.sh
 
 
