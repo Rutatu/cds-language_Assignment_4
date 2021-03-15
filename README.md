@@ -24,7 +24,7 @@ Here are the instructions for runing this script in terminal on worker02:
 
    - Open terminal on worker02
    - Navigate to the environment where you want to clone this repository, e.g. type: cd cds-language
-   - Clone the repository, type: git clone  
+   - Clone the repository, type: git clone https://github.com/Rutatu/cds-language-analytics_Assignment_4.git  
    - Navigate to the newly cloned repo, type: cd cds-language-analytics_Assignment_4 
    - Create virtual environment with its dependencies, type: bash create_networks_venv.sh
    - Don´t close the terminal to continue with the instructions below 
@@ -36,6 +36,10 @@ Here are the instructions for runing this script in terminal on worker02:
    - OPTIONAL: there is an otional --weight argument.  To include it, add: --weight as the last argument followed by a number of your choice, e.g. --weight 300
    - Script will take a while to run (faster with --weight argument), so have a short break.
    - It should create 'viz' folder with network visualization in it and 'output' folder with .csv file in it. You should get a message when the script is done running.
+   - NOTE: unfortunatelly, network visualization looks like crap ;/
    - To remove the newly created networks environment type: bash kill_networks_venv.sh
+
+
+
 
 I hope it worked :)
