@@ -7,7 +7,7 @@
 
 # Network analysis
 
-The purpose of this assignment is to create reusable network analysis pipeline or command-line tool, which enables the script to be run from the command line. This command-line tool will take a given weighted edgelist dataset, providing that edgelist is saved as a CSV with the column headers "nodeA", "nodeB", and perform simple network analysis. In particular, it will build networks based on entities appearing together in the same documents, create a network visualization and a data frame showing the degree, betweenness, and eigenvector centrality for each node. It will create 'viz' folder for network.png visualization file and 'output' folder for networks.csv data file.
+The purpose of this assignment is to create reusable network analysis pipeline or command-line tool, which enables the script to be run from the command line. This command-line tool will take a given weighted edgelist dataset, providing that edgelist is saved as a CSV with the column headers "nodeA", "nodeB", and perform simple network analysis. In particular, it will build networks based on entities appearing together in the same documents, create a network visualization and a data frame showing the degree, betweenness, and eigenvector centrality for each node.
 
 
 # About this repository:
@@ -35,7 +35,6 @@ Here are the instructions for runing this script in terminal on worker02:
    - To get information about the input arguments, type: python network.py --help 
    - OPTIONAL: there is an optional '--weight argument'.  To include it, add: --weight as the last argument followed by a number of your choice, e.g. --weight 300
    - You should get a message when the script is done running. As a result, you should find newly created 'viz' folder with network visualization in it and 'output' folder with .csv file in it in networks environment
-   - NOTE: unfortunatelly, network visualization looks like a crap ;/
    - To remove the newly created networks environment type: bash kill_networks_venv.sh
 
 
