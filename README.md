@@ -120,4 +120,5 @@ I hope it worked!
 
 ## Results
 
+This assignment showed how ```NetworkX``` can be used to perform a simple network analysis on entities appearing together in the same documents. The resulting script can be used as a reusable pipeline to perform similar network analyses on similar datasets. Such analyses can inform us about the underlying structure and dynamics of the relationships between individuals.
 
