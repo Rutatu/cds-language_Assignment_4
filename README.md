@@ -23,17 +23,20 @@ and saved as CSV file. As a result, this defines a reusable pipline to perform n
 | File | Description |
 | --- | --- |
 | data/ | Folder containing input data for the script |
-| data/abcnews-date-text.rar | archived headlines dataset |
-| output | Folder containing files produced by the scripts |
-| output/weekly_sentiment.png | a plot displaying 7-days rolling average of sentiment scores |
-| output/monthly_sentiment.png | a plot displaying 30-days rolling average of sentiment scores|
-| output/combined_sentiment.png | a plot displaying 1, 7, 30  and 365-days rolling averages of sentiment scores |
-| src | Folder containing the scripts |
-| src/sentiment.py | Sentiment analysis script |
+| data/fake_or_real_news.zip | archived dataset used to extract named individuals |
+| data/weighted_edgelist.csv | input dataset for the script |
+| output/ | Folder containing CSV files produced by the scripts |
+| output/network_measures_all_weights.csv | calculated centrality measures of all nodes |
+| output/network_measures_weights_500.csv | calculated centrality measures of the nodes with a weight higher that 500|
+| src | Folder containing the script |
+| src/network.py | Network analysis script |
+| viz/ | Folder containing PNG network graphs produced by the script |
+| viz/network_viz_all_weights.png| network graphs including all nodes  |
+| viz/network_viz_weights_500.png| network graph including the nodes with a weight higher that 500 |
 | LICENSE |  A software license defining what other users can and can't do with the source code |
 | README.md | Description of the assignment and the instructions |
-| create_sentiment_venv.bash | bash file for creating a virtual environmment |
-| kill_sentiment_venv.bash | bash file for removing a virtual environment |
+| create_networks_venv.bash | bash file for creating a virtual environmment |
+| kill_networks_venv.bash | bash file for removing a virtual environment |
 | requirements.txt | list of python packages required to run the script |
 
 
